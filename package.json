@@ -26,10 +26,21 @@
     "@docusaurus/module-type-aliases": "3.0.0",
     "@docusaurus/tsconfig": "3.0.0",
     "@docusaurus/types": "3.0.0",
+    "husky": "^8.0.3",
+    "patch-package": "^8.0.0",
+    "prettier": "^3.1.0",
     "typescript": "~5.2.2"
   },
   "engines": {
     "node": ">=18.0"
+  },
+  "lint-staged": {
+    "*.{js,ts,tsx,css,md}": "prettier --write",
+    "package.json": "prettier-package-json --write"
+  },
+  "prettier": {
+    "trailingComma": "all",
+    "singleQuote": true
   },
   "private": true,
   "scripts": {
@@ -37,6 +48,9 @@
     "clear": "docusaurus clear",
     "deploy": "docusaurus deploy",
     "docusaurus": "docusaurus",
+    "packageManager": "yarn@1.22.15",
+    "postinstall": "patch-package",
+    "prepare": "husky install",
     "serve": "docusaurus serve",
     "start": "docusaurus start",
     "swizzle": "docusaurus swizzle",
