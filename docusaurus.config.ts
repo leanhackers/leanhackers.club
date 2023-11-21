@@ -37,15 +37,17 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/leanhackers/leanhackers.club/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({ locale, versionDocsDirPath, docPath }) => {
+            return `https://github.com/leanhackers/leanhackers.club/edit/main/${versionDocsDirPath}/${docPath}`;
+          },
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/leanhackers/leanhackers.club/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: ({ locale, blogPath, blogDirPath }) => {
+            return `https://github.com/leanhackers/leanhackers.club/edit/main/${blogDirPath}/${blogPath}`;
+          },
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -78,6 +80,11 @@ const config: Config = {
           position: 'right',
         },
         */
+        {
+          label: 'Blog',
+          position: 'right',
+          to: '/blog',
+        },
         {
           to: 'docs/tags',
           position: 'right',
