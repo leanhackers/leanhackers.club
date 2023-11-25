@@ -23,6 +23,15 @@ Tech
 - Ship fast
 - Analytics from day one
 
+Contabilidade
+
+- MEI, ME, EPP
+- Nota fiscal
+- Fator R
+- Pro-labore
+- Cnae (atividade da empresa)
+- Folha de pagamento
+
 Precificação
 
 - OTP
