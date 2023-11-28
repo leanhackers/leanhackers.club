@@ -12,5 +12,5 @@ Saque o valor a qualquer momento usando Pix.
 
 Website: https://www.alertpix.live
 
-Membro: [Christopher Ribeiro](https://twitter.com/ChristoPy_)
+Membro: [Christopher Ribeiro](https://twitter.com/ChristoPy_)  
 Membro: [Daniel Lima](https://twitter.com/daniellimae)
