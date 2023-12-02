@@ -15,7 +15,7 @@ const FeatureList: FeatureItem[] = [
     description: (
       <>
         Crie contatos chave com outras pessoas que {` `}
-        <strong>realmente</strong> estão contruindo algo.
+        <strong>realmente</strong> estão construindo algo.
       </>
     ),
   },
