@@ -35,7 +35,7 @@ Contabilidade
 Precificação
 
 - OTP
-- Freemium
+- Freemium (free tier free trial)
 - Recorrência
 - Regra dos 3 planos
 
@@ -46,6 +46,7 @@ Sociedade
 - Cliff & Vesting (contrato)
 - VCs
 - Aceleradoras
+- Breakeven & payback (como calcular)
 
 Vendas
 
